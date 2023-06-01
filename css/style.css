@@ -6,17 +6,17 @@
   scroll-behavior: smooth;
 }
 
-.nav-atas a {
+.nav-atas  a {
   color: black;
   padding-right: 20px;
   margin-right: 20px;
 }
-.logo svg {
+.logo svg{
   top: 0;
-  position: absolute;
-  /* height: 88px; */
+ position: absolute;
+ /* height: 88px; */
 }
-.nav-atas .nav-active {
+.nav-atas  .nav-active {
   border-radius: 0px;
   color: #ffffff;
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
@@ -36,227 +36,220 @@
   color: white;
 }
 
-.banner {
+.banner{
   width: 100%;
 }
 
-header .container-list {
-  width: 100%;
+header .container-list{
+width: 100%;
 }
 
 @media (max-width: 1000px) {
-  nav button {
-    margin: 20px;
+ nav button{
+   margin: 20px;
   }
-  .banner img {
-    width: 100%;
-    margin-bottom: -20px;
-  }
-  .banner {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .display-2 p {
-    display: inline;
-  }
-  .nav-atas a,
-  header ul li {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .nav-atas a {
-    margin-bottom: 5px;
-  }
-  .container-list .list {
-    width: 100%;
-  }
+ .banner img{
+  width: 100%;
+  margin-bottom: -20px;
+ }
+ .banner{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+ .display-2 p{
+  display:inline;
+ }
+ .nav-atas  a,header ul li{
+  margin: 0 auto;
+  width: 100%;
+ }
+ .nav-atas  a{
+  margin-bottom: 5px;
+ }
+ .container-list .list{
+  width: 100%;
+ }
 }
 
-.contact .left-content h4 {
-  font-size: 1.85em;
+.contact .left-content h4{
+  font-size: 1.850em;
   font-weight: 400;
   line-height: 38px;
-  color: #020e35;
+  color:  #020E35; 
   letter-spacing: 0px;
 }
-.contact .left-content span {
-  color: #e73587;
+.contact .left-content span{
+color : #E73587;
 }
-.contact .left-content h1 {
+.contact .left-content h1{
   letter-spacing: 0px;
   font-size: 5.325em;
   font-weight: 400;
   line-height: 110px;
-  color: #020e35;
+  color:  #020E35;
 }
 
-.right-content {
+.right-content{
   padding-left: 15px;
 }
-.right-content input {
+.right-content input{
   border-radius: 2px;
 }
-.right-content input:focus {
-  outline: none;
+.right-content input:focus{
+  outline: none ;
 }
 
-.right-content label {
-  margin: 5px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  color: #2c3241;
+.right-content label{
+ margin: 5px;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+color: #2C3241;
 }
-.right-content textarea {
+.right-content textarea{
   border-radius: 2px;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  color: #2c3241;
+  color: #2C3241;
   height: 168px;
 }
 :root {
   --color-gradient: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
 }
-.right-content button {
+.right-content button{
   background: var(--color-gradient);
-  color: white;
+  color: white ;
   border-radius: 2px;
+ }
+ 
+footer{
+background-color: #020E35;
+color: #ffffff;
 }
 
-footer {
-  background-color: #020e35;
-  color: #ffffff;
-}
-
-@media (max-width: 700px) {
-  .contact .container .row {
+ @media (max-width: 700px) {
+  .contact .container .row{
     margin: 0 auto;
   }
-  footer .container {
+  footer .container{
     justify-content: center;
   }
 }
 @media (max-width: 500px) {
-  .contact .left-content h4 {
-    font-size: 1.55em;
+  .contact .left-content h4{
+    font-size: 1.550em;
   }
-  .contact .left-content h1 {
+  .contact .left-content h1{
     font-size: 5.025em;
     line-height: 80px;
   }
 }
-/* About CSS Start ============================*/
-#about .content-title h1 {
+/* About css start ============================*/
+#about .content-title h1{
   font-size: 40px;
   font-weight: 400;
   line-height: 50px;
 }
-#about .content-title p {
+#about .content-title p{
+  
   width: 55%;
   font-weight: 400;
   line-height: 25px;
 }
-#about .content-title span {
-  margin-top: -10px;
-  width: 9%;
-  border-bottom: 1px solid #e73587;
+#about .content-title span{
+ margin-top: -10px;
+ width: 9%;
+ border-bottom: 1px solid #E73587;
 }
-#about .container-section {
+#about .container-section{
   background-image: url("../asset/img/Oval.png");
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
   padding: 50px;
 }
 
-/* About CSS End =========================================*/
+/* end about css =========================================*/
 
-/* Start Service CSS  ================================================================================*/
+/* start Service css  ================================================================================*/
 .service {
   margin-bottom: -300px;
 }
 .carousel .card {
   padding: 10px;
   border-radius: 0;
-  border: 1px solid transparent;
+  border:  1px solid transparent;
 }
-.service span {
+.service  span{
   width: 60%;
-  border-bottom: 1px solid #e73587;
+  border-bottom: 1px solid #E73587;
+ }
+.carousel .card-1{
+  background: #FDF8E3;
 }
-.carousel .card-1 {
-  background: #fdf8e3;
+.carousel .card-2{
+  background:  #F0F3FA;
 }
-.carousel .card-2 {
-  background: #f0f3fa;
+.carousel .card-3{
+  background: #FEEFF0;
 }
-.carousel .card-3 {
-  background: #feeff0;
+.card p, .card h5{
+line-height: 25px;
+font-weight: 100;
 }
-.card p,
-.card h5 {
-  line-height: 25px;
-  font-weight: 100;
-}
-.card img {
+.card img{
   height: 275px;
 }
-.card-body a {
+.card-body a{ 
   padding: 10px 35px;
   background: var(--color-gradient);
   color: #ffffff;
   text-decoration: none;
   font-size: 14px;
 }
-.service .carousel i {
+.service .carousel i{
   background: var(--color-gradient);
   padding: 25px 30px;
   border-radius: 100%;
   border: #ffffff solid 2px;
-}
-.service .carousel button {
-  position: absolute;
+ }
+.service .carousel button{
+  position:absolute;
   right: -95px;
 }
 
+
 @media (max-width: 500px) {
-  #about .content-title p {
-    width: 100%;
+  #about .content-title p{
+   width: 100%;
   }
 }
 
 @media (max-width: 1000px) {
-  .carousel .card h5 {
+  .carousel .card h5{
     font-size: 30px;
-  }
-  .carousel .card p,
-  .card-body a,
-  #about .content-title p {
-    font-size: 1.375em;
-    line-height: 30px;
-  }
-  .slide1 .card-2,
-  .slide1 .card-3,
-  .slide2 .card-1,
-  .slide2 .card-3,
-  .slide3 .card-1,
-  .slide3 .card-2 {
-    display: none;
-  }
-  .service .carousel button {
-    position: default;
-    right: 0;
-  }
-  .service .container {
+    }
+    .carousel .card p, .card-body a, #about .content-title p{
+      font-size: 1.375em;
+      line-height: 30px;
+    }
+    .slide1 .card-2,  .slide1 .card-3,.slide2 .card-1,  .slide2 .card-3,  .slide3 .card-1,  .slide3 .card-2{
+      display: none;
+    }
+   .service .carousel button{
+     position: default;
+     right: 0;
+   }
+   .service .container{
     padding: 0 20px;
-  }
+   }
 }
-/* Service CSS End ======================================================================== */
+/* service css end ======================================================================== */
 
-/* Work CSS Start ============================================================================ */
+/* work css start ============================================================================ */
 .work {
-  background: #020e35;
+  background: #020E35;
   width: 100%;
 }
 
@@ -266,16 +259,16 @@ footer {
   font-size: 40px;
   text-align: center;
 }
-.work .line {
+.work .line{
   width: 90px;
-  border-bottom: 1px solid #e73587;
+  border-bottom: 1px solid #E73587;
   margin: 0 auto;
 }
 .work .kotak1 {
   position: relative;
   width: 587px;
   height: 390px;
-  background: #f09532;
+  background: #F09532;
   margin: 80px 70px;
 }
 
@@ -283,7 +276,7 @@ footer {
   position: relative;
   width: 587px;
   height: 390px;
-  background: #8c32f0;
+  background: #8C32F0;
   margin: 0px 640px;
 }
 
@@ -291,7 +284,7 @@ footer {
   position: relative;
   width: 587px;
   height: 390px;
-  background: #e73587;
+  background: #E73587;
   margin: 50px 60px;
 }
 
@@ -299,7 +292,7 @@ footer {
   position: relative;
   width: 587px;
   height: 390px;
-  background: #32d6f0;
+  background: #32D6F0;
   margin: 0px 640px;
 }
 
@@ -372,7 +365,7 @@ footer {
   top: 50px;
   letter-spacing: 3px;
 }
-.container-button {
+.container-button{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -399,7 +392,7 @@ footer {
 
 .tombol {
   position: relative;
-  margin: 30px 0;
+  margin: 30px 0; 
   padding: 10px 35px 10px 35px;
   border: none;
   font-size: 14px;
@@ -409,7 +402,7 @@ footer {
 
 @media only screen and (max-width: 1254px) {
   .work {
-    padding: 20px;
+   padding: 20px;
   }
   .work .kotak1,
   .work .kotak2,
@@ -442,8 +435,9 @@ footer {
     margin: 10px;
     text-align: center;
   }
-  .tombol {
-    margin: 10px 0;
+ .tombol{
+   margin: 10px 0;
   }
+  
 }
-/* Work CSS end =================================================================== */
+/* work css end =================================================================== */
